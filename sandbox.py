@@ -1,7 +1,11 @@
+# This file is used for visualizing and testing code snippets.
 from PIL import Image
 from torchvision import transforms
 
-# Visualize an image as a tensor
+
+# -------------------------
+# Visualize an Image as a Tensor
+# -------------------------
 
 # Load an image
 img = Image.open(r"data\test\cats\5.jpg")
