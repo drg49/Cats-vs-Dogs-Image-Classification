@@ -12,7 +12,7 @@ In this project, the nueral network is built from scratch, to better understand 
 
 ## Dataset
 
-The dataset contains thousands of labeled images of cats and dogs. Download it from [Kaggle](https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset) and place it in a `data/` folder. Create a `split_dataset_move.py` in the same directory to organize images in the correct structure. Here is the script:
+The dataset contains thousands of labeled images of cats and dogs. Download it from [Kaggle](https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset) and place it in the project. Create a `split_dataset_move.py` in the same directory to organize images in the correct structure. Here is the script:
 
 ```
 import os
