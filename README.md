@@ -105,4 +105,4 @@ Images inside the subfolder are automatically assigned that label. In this case 
 
 - Example: **cats/cat1.jpg → label 0** (since cats is first alphabetically), then **dogs/dog1.jpg → label 1**
 
-<br>Using `DataLoader`, cat & dog images are placed into batches of 32 for better performance.
+<br>Using `DataLoader`, cat & dog images are placed into batches of **32** for better performance. GPUs often handle powers of 2 efficiently (16, 32, 64, 128…), 32 is a good choice here.

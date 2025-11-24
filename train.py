@@ -35,6 +35,7 @@ print("Classes:", train_dataset.classes)  # Expect: ['Cat', 'Dog']
 # -------------------------------------------
 # 3. DEFINE CNN MODEL
 # -------------------------------------------
+# Inherit from nn.Module to create a custom CNN
 class SimpleCNN(nn.Module):
     def __init__(self):
         super().__init__()
