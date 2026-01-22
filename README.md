@@ -1,5 +1,10 @@
 # Cats vs Dogs Classifier 🐱🐶
 
+Google Colab Project for this notebook: <br>
+https://colab.research.google.com/drive/1Qe4fry0cijn-4QXljEVqrz4WpgOt_Yws#scrollTo=Mn8mOf8v93Qo
+
+<br>
+
 A simple image classifier that distinguishes cats from dogs using deep learning. Built with **PyTorch** and trained on the [Microsoft Cats vs Dogs Dataset](https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset).
 
 In this project, the nueral network is built from scratch, to better understand how it works. In a future project, I will use transfer learning with ResNet.
